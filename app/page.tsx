@@ -1,19 +1,30 @@
 import styles from "./page.module.css";
 import FeaturedBox from "./_components/FeaturedBox/FeaturedBox";
-
+import FrontpageCard from "./_components/FrontpageCard/FrontpageCard";
 
 export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
         <FeaturedBox
-          imgPath="/red.png"
+          href='/blog/loan-data-visualizer'
+          imgPath="/gov.svg"
           title="Featured Project: Loan Data Visualizer"
           text="There are many online groups, that act as peer-to-peer lending communities for small,
           short-term financial loans. Thankfully, this data is publicly available online and can be
           analyzed. This project uses both Python and Postgres to collect, analyze and
           serve some statistics about these online communities."/>
+        {/* Hand-made for now */}
+        <section className={styles.cardSection}>
+          <h3 className={styles.cardsTitle}>Other cool things I've made</h3>
+          <div className={styles.cards}>
+            <FrontpageCard href='/blog/how-this-site-is-hosted' imgPath='/server.svg' title='Article: How this site is hosted'
+              text='I am not a frontend developer, but sometimes I must ask myself, "What would someone who actually enjoys JavaScript do?"' />
+            <FrontpageCard href='/blog/bit-arrays' imgPath='/barray.svg' title='Article: How does a bit array work?'
+              text='Most junior developers have probably heard about regular bytes and arrays, but did you know you can turn a whole number into an array?' />
+          </div>
+        </section>
       </main>
-    </div>
+    </div >
   );
 }

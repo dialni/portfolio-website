@@ -1,0 +1,40 @@
+.title {
+    color: #e4e5e6;
+    font-size: 26;
+    margin-bottom: 0.5rem;
+}
+
+.text {
+    color: #e4e5e6;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    background-color: #1e232c;
+    border-radius: 15px;
+    padding: 0.5rem;
+    max-width: 50rem;
+    height: 7rem;
+}
+
+.img {
+    width: 4rem;
+    height: 4rem;
+    margin-top: 1rem;
+    margin-left: 0.5rem;
+}
+
+.textrow {
+    display: flex;
+    flex-direction: column;
+    margin: 0.25rem 0 0.5rem 1rem;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.a:hover {
+    text-decoration: none;
+}

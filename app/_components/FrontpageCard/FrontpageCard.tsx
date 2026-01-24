@@ -1,5 +1,5 @@
 import Image from "next/image";
-import style from "./FeaturedBox.module.css"
+import style from "./FrontpageCard.module.css"
 
 type Props = {
   imgPath: string;
@@ -8,13 +8,13 @@ type Props = {
   href: string;
 };
 
-export default function FeaturedBox({ imgPath, title, text, href }: Props) {
+export default function FrontpageCard({ imgPath, title, text, href }: Props) {
   return (
     <a className={style.a} href={href}>
       <div className={style.main}>
-        <Image className={style.img} src={imgPath} width={200} height={200} alt="Showcase Image" />
+        <Image className={style.img} src={imgPath} width={256} height={256} alt="Showcase Image" />
         <div className={style.textrow}>
-          <h2 className={style.title}>{title}</h2>
+          <h3 className={style.title}>{title}</h3>
           <p className={style.text}>{text}</p>
         </div>
       </div>

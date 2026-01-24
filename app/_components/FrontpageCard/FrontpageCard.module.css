@@ -1,0 +1,36 @@
+.title {
+    margin-top: 0.5rem;
+    color: #e4e5e6;
+}
+
+.text {
+    color: #e4e5e6;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    background-color: #1e232c;
+    align-items: center;
+    border-radius: 15px;
+    padding: 1rem;
+    width: 15rem;
+    height: 24rem;
+}
+
+.img {
+    width: 9rem;
+    height: 9rem;
+}
+
+.textrow {
+    text-align: center;
+}
+
+.a {
+    text-decoration: none;
+}
+
+.a:hover {
+    text-decoration: none;
+}

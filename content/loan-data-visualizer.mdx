@@ -1,0 +1,21 @@
+# Featured Project: Loan Data Visualizer
+##### 24/01/2026, Dimitri Alessandro Nielsen
+
+On online forums and social media platforms, such as Facebook or Reddit, there exist communities that facilitate private loans online.
+
+These ["peer-to-peer lending"](https://en.wikipedia.org/wiki/Peer-to-peer_lending) forums operate outside of traditional institutions, and therefore all posts and transactions are public, rather than relying on a standard credit rating. 
+As such, we can see the live market activity and produce some statistics.
+
+The entire project was written over the course of my Christmas break from university, where I wanted to learn React and the FastAPI framework.
+
+The website can be found at [dialni.com/projects/loan-data-visualizer](https://dialni.com/projects/loan-data-visualizer)
+
+The source code can be found on my [GitHub](https://github.com/dialni/loan-data-visualizer).
+
+## How did you make this project?
+The dashboard itself is actually just a standard React web-app made with Vite and JavaScript. 
+The backend is a Python FastAPI server that runs an update method to retrieve, store, and aggregate the data points I wanted. 
+The result is then cached for 1 day before wiping all previous data and starting over.
+
+From this cache, the frontend can create a multitude of data points. 
+The frameworks were chosen for no particular reason, other than I wanted to try making some more serious things in different frameworks that I hadn't really tried before.

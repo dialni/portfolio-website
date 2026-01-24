@@ -1,10 +1,9 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "@picocss/pico"
 import "./globals.css";
 
 
-const geistSans = Geist({
+/*const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
 });
@@ -12,12 +11,11 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
-});
+});*/
 
 export const metadata: Metadata = {
   title: "dialni",
   description: "Portfolio website for Dimitri Alessandro Nielsen",
-
 };
 
 export default function RootLayout({
@@ -29,8 +27,7 @@ export default function RootLayout({
     <html lang="en">
       <body>
         <header className="navbar">
-        <h1>Dimitri Alessandro Nielsen</h1>
-        <h2>Check out some of my projects below!</h2>
+        <a href="/" className="navbarTitle"><h1>Dimitri Alessandro Nielsen</h1></a>
         <nav>
           <ul>
             <li>
@@ -40,7 +37,7 @@ export default function RootLayout({
               <a href="https://github.com/dialni" target="_blank">GitHub</a>
             </li>
             <li>
-              <a href="/about">Blog</a>
+              <a href="/blog">Blog</a>
             </li>
           </ul>
         </nav>
