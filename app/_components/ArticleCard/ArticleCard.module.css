@@ -18,6 +18,10 @@
     height: 7rem;
 }
 
+.main:hover {
+    background-color: #232730;
+}
+
 .img {
     width: 4rem;
     height: 4rem;

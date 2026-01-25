@@ -6,14 +6,24 @@ export default function Home() {
   return (
     <div className={styles.page}>
       <main className={styles.main}>
-        <FeaturedBox
-          href='/blog/loan-data-visualizer'
-          imgPath="/gov.svg"
-          title="Featured Project: Loan Data Visualizer"
-          text="There are many online groups, that act as peer-to-peer lending communities for small,
+        <section className={styles.introSection}>
+          <h2>I'm Dimitri, a software developer based in Copenhagen</h2>
+          <p>Currently studying for my bachelor's in Software Development at the IT-University of Copenhagen since 2024.</p>
+          <p>I have a background in C, Python, and C#. I am also a volunteer in my spare time at <a href="https://codingpirates.dk/" target="_blank">Coding Pirates, ITU</a>.</p>
+          <p>Check out some of my projects below!</p>
+        </section>
+
+        <section className={styles.featuredSection}>
+          <FeaturedBox
+            href='/blog/loan-data-visualizer'
+            imgPath="/gov.svg"
+            title="Featured Project: Loan Data Visualizer"
+            text="There are many online groups, that act as peer-to-peer lending communities for small,
           short-term financial loans. Thankfully, this data is publicly available online and can be
           analyzed. This project uses both Python and Postgres to collect, analyze and
           serve some statistics about these online communities."/>
+        </section>
+
         {/* Hand-made for now */}
         <section className={styles.cardSection}>
           <h3 className={styles.cardsTitle}>Other cool things I've made</h3>

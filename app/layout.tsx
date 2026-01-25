@@ -28,6 +28,7 @@ export default function RootLayout({
       <body>
         <header className="navbar">
         <a href="/" className="navbarTitle"><h1>Dimitri Alessandro Nielsen</h1></a>
+        <h2 className="navbarEmail">dimitri.anielsen@gmail.com</h2>
         <nav>
           <ul>
             <li>
