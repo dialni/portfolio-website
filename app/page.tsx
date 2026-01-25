@@ -9,10 +9,9 @@ export default function Home() {
         <section className={styles.introSection}>
           <h2>I'm Dimitri, a software developer based in Copenhagen</h2>
           <p>Currently studying for my bachelor's in Software Development at the IT-University of Copenhagen since 2024.</p>
-          <p>I have a background in C, Python, and C#. I am also a volunteer in my spare time at <a href="https://codingpirates.dk/" target="_blank">Coding Pirates, ITU</a>.</p>
+          <p>I have a background in C, Python, and C#, but starting to take an interest in web development.</p>
           <p>Check out some of my projects below!</p>
         </section>
-
         <section className={styles.featuredSection}>
           <FeaturedBox
             href='/blog/loan-data-visualizer'
@@ -23,7 +22,6 @@ export default function Home() {
           analyzed. This project uses both Python and Postgres to collect, analyze and
           serve some statistics about these online communities."/>
         </section>
-
         {/* Hand-made for now */}
         <section className={styles.cardSection}>
           <h3 className={styles.cardsTitle}>Other cool things I've made</h3>
