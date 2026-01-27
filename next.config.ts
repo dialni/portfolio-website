@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   reactCompiler: true,
   pageExtensions: ['md', 'mdx', 'ts', 'tsx'],
-
+  output: "standalone",
 };
 
 const withMDX = createMDX({
