@@ -7,30 +7,40 @@
 .main {
     background-color: #1b1e22;
     display: grid;
-    grid-template-columns: 10rem 15rem;
-    grid-template-rows: 10rem 10rem;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
     border: 1px solid #e4e5e6;
-    padding: 1rem;
+    width: 100%;
+    height: 100%;
 }
 
 .doubleBorder {
     border: 1px solid #e4e5e6;
     padding: 0.1rem;
+    width: 100%;
+    height: 100%;
 }
 
 .imgContainer {
     width: 100%;
     height: 100%;
     position: relative;
+    margin-top: 0.5rem;
 }
 
 .title {
-    text-align: center;
     display: flex;
+    text-align: center;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    margin-right: 2rem;
+    font-size: 1vw;
 }
 
 .text {
     grid-column: span 2;
     margin: 1rem;
+    font-size: 1vw;
 }

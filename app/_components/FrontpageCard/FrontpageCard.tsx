@@ -11,14 +11,14 @@ type Props = {
 export default function FrontpageCard({ imgPath, title, text, href }: Props) {
   return (
     <a className={style.a} href={href}>
-      <div className={style.doubleBorder}>
+      {/*<div className={styles.doubleBorder}>*/}
         <div className={style.main}>
           <div className={style.imgContainer}>
             <Image className={style.img} src={imgPath} fill={true} alt="Showcase Image" />
           </div>
           <h3 className={style.title}>{title}</h3>
           <p className={style.text}>{text}</p>
-        </div>
+        {/*</div>*/}
       </div>
     </a>
   )

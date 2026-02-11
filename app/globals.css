@@ -6,6 +6,10 @@ body {
     color: #e4e5e6;
 }
 
+a {
+    color: #e4e5e6
+}
+
 .navbar {
     margin: auto;
     display: flex;
@@ -24,7 +28,6 @@ nav ul {
 }
 
 .navbarTitle {
-    color: #e4e5e6;
     text-decoration: none;
     margin-bottom: -0.8rem;
 }
@@ -37,12 +40,4 @@ nav ul {
 /* margin: top right bottom left */
 .navbar nav ul li{
     margin: 0 1.5rem 0 1.5rem;
-}
-
-.navbar nav ul li a{
-    color: var(--pico-h1-color);
-}
-
-.navbar nav ul li a{
-    color: var(--pico-h1-color);
 }

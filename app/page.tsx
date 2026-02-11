@@ -8,6 +8,7 @@ export default function Home() {
       <main className={styles.main}>
         <section className={styles.introSection}>
           <h2>I'm Dimitri, a software developer based in Copenhagen</h2>
+          <p>Check out some of my work below!</p>
           {/*<p>Currently studying for my bachelor's in Software Development at the IT-University of Copenhagen since 2024.</p>
           <p>I have a background in C, Python, and C#, but starting to take an interest in web development.</p>
           <p>Check out some of my projects below!</p>*/}
@@ -17,7 +18,8 @@ export default function Home() {
             <FeaturedBox
               href='/blog/loan-data-visualizer'
               imgPath="/gov.svg"
-              title="Featured Project: Loan Data Visualizer"
+              titletype="Featured Project:"
+              title="Loan Data Visualizer"
               text="There are many online groups, that act as peer-to-peer lending communities for small,
           short-term financial loans. This project comes with a handy dashboard for these loans."/>
           </div>

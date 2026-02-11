@@ -2,12 +2,29 @@
   width: 80%;
 }
 
+.introSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 0.8vw;
+}
+
+.introSection h2 {
+  margin-bottom: 0;
+}
+
+.introSection p {
+  margin-top: 1rem;
+  font-size: 1vw;
+}
+
 .featuredSection {
-  background-color: bisque;
   display: grid;
   grid-template-columns: 1fr 1.5fr;
   grid-template-rows: 1fr 1fr;
   column-gap: 0.5rem;
+  row-gap: 0.5rem;
+  height: 50vh;
 }
 
 .featuredProject {
