@@ -44,6 +44,10 @@ export default function RootLayout({
         </nav>
       </header>
         {children}
+      <footer>
+        <p>Font is Tomorrow by <a href="https://github.com/MonicaRizzolli/Tomorrow" target="_blank">Tony de Marco and Monica Rizzolli</a></p>
+        <p>All other work by Dimitri Alessandro Nielsen</p>
+      </footer>
       </body>
     </html>
   );

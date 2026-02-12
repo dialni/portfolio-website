@@ -3,4 +3,9 @@
     flex-direction: column;
     align-items: center;
     margin-top: 1rem;
+    width: 70%;
+}
+
+.main h1 {
+    font-size: 2vw;
 }

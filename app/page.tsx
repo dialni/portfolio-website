@@ -8,7 +8,7 @@ export default function Home() {
       <main className={styles.main}>
         <section className={styles.introSection}>
           <h2>I'm Dimitri, a software developer based in Copenhagen</h2>
-          <p>Check out some of my work below!</p>
+          <p>I currently focus on working with Python, TypeScript, Next.js, Docker and lots of other cool things.<br/><br/>  Check out some of my work below!</p>
           {/*<p>Currently studying for my bachelor's in Software Development at the IT-University of Copenhagen since 2024.</p>
           <p>I have a background in C, Python, and C#, but starting to take an interest in web development.</p>
           <p>Check out some of my projects below!</p>*/}
